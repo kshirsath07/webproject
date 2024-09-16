@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>CAFE FEEDBACK FORM</title>
+<link rel="stylesheet" type="text/css" href="external.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+form
+{
+margin-left:100px;
+margin-right:100px;
+margin-bottom:100px;
+}
+</style>
+
+</head>
+
+<body background="file:///C:/Users/admin/Documents/My Web Sites/ac.jpg" width="100%">
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+ 	<a href="index.html">Home</a>
+    <a href="viva la vida cafes menu.html">Menu</a>
+    <a href="viva la vida events.html">Events</a>
+    <a href="viva la vida cafes products.html">Products</a>
+    <a href="viva la vida cafes information.html">About us</a>
+    <a href="viva la vida cafes gratitude.html ">Gratitude</a>
+    <a href="viva la vida feedback.html">Feedback</a>
+    <a href="viva la vida cafes credit.html">Credits</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+<h2 align="center" style="background-color:#FCF5E5"> CAFE FEEDBACK FORM </h2>
+<hr />
+<br />
+<form method="post" action="" style="background-color:#FAEBD7" style="margin-left:100px" style="margin-right:100px">
+<fieldset>
+<legend> Customer Details </legend>
+<br />
+<label id="Label1"> ➤ Please Enter Your Email : </label>
+<input name="Text1" type="text" />
+<br />
+<br />
+<label id="Label1"> ➤ Please Confirm Your Gender : </label>
+<br />
+<input name="Radio1" type="radio" /> Male 
+<br />
+<input name="Radio1" type="radio" /> Female
+<br />
+<input name="Radio1" type="radio" /> Other
+<br />
+<br />
+<label id="Label1"> ➤ To Which Of The Following Age Group Do You Belong : </label>
+<br />
+<input name="Radio2" type="radio" /> Under 20
+<br />
+<input name="Radio2" type="radio" /> 20-30
+<br />
+<input name="Radio2" type="radio" /> 30-40
+<br />
+<input name="Radio2" type="radio" /> 40-50
+<br />
+<input name="Radio2" type="radio" /> 50-60
+<br />
+<input name="Radio2" type="radio" /> Over 60
+<br />
+<br />
+</fieldset>
+<br />
+<br />
+<br />
+<fieldset>
+<legend> We Value Your Words!! </legend>
+<br />
+<label id="Label1"> ➤ How Often Do You Visit Cafe? </label>
+<input name="Radio3" type="radio" /> Daily
+<br />
+<input name="Radio3" type="radio" /> Several Times A Week
+<br />
+<input name="Radio3" type="radio" /> Once A Month
+<br />
+<input name="Radio3" type="radio" /> Never 
+<br />
+<br />
+<label id="Label1"> ➤ Would You Recommend Our Cafe To A Friend Or Colleague?</label>
+<br />
+<input name="Radio4" type="radio" /> Yes
+<br />
+<input name="Radio4" type="radio" /> No
+<br />
+<br />
+<label id="Label1"> ➤ How Strongly Do You Agree With The Following Statement Referring To Your Experience In Our Cafe? </label>
+<br />
+<br />
+<label id="Label1"> 1. The Prices Are Affordable. </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="Radio5" type="radio" /> Strongly Disagree 
+<input name="Radio5" type="radio" /> DIsagree 
+<input name="Radio5" type="radio" /> Agree 
+<input name="Radio5" type="radio" /> Strongly Agree
+<br />
+<br />
+<label id="Label1"> 2. The Coffee Is Of Good Quality. </label>
+<input name="Radio6" type="radio" /> Strongly Disagree
+<input name="Radio6" type="radio" /> DIsagree 
+<input name="Radio6" type="radio" /> Agree 
+<input name="Radio6" type="radio" /> Strongly Agree
+<br />
+<br />
+<label id="Label1"> 3. The Services Are Fast.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+<input name="Radio7" type="radio" /> Strongly Disagree
+<input name="Radio7" type="radio" /> DIsagree 
+<input name="Radio7" type="radio" /> Agree 
+<input name="Radio7" type="radio" /> Strongly Agree
+<br />
+<br /> 
+<label id="Label1"> ➤ How Would You Rate Our Cafe? </label>
+<br />
+<br />
+<input name="Radio8" type="radio" /> Unacceptable
+<input name="Radio8" type="radio" /> Needs Improvements
+<input name="Radio8" type="radio" /> Meets Expectations
+<input name="Radio8" type="radio" /> Exceeds Expectations
+<input name="Radio8" type="radio" /> Outstanding
+<br />
+<br />
+<label id="Label1"> ➤  Would You Like Us To  Improve Any Aspect Of Our Cafe To Suit You Better? </label>
+<textarea name="TextArea1" cols="20" rows="2"></textarea>
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="Submit1" type="submit" value="submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="Reset1" type="reset" value="reset" />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button name="Abutton1">Delete </button>
+
+</fieldset>
+</form>
+<center>
+<a href="https://www.linkedin.com/in/palak-prajapati-a63561329?trk=contact-info" class="fa fa-linkedin"></a>
+<a href="https://x.com/Ppalak03?t=KpD2smd_VGcS7HHSAZJB9w&s=09" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/kookie_lak?igsh=MWFrcmNtYW42eTZ2YQ==" class="fa fa-instagram"></a>
+<a href="https://pin.it/1dJ9DEjeV" class="fa fa-pinterest"></a>
+<a href="https://www.snapchat.com/add/kookie_lak?share_id=aRkSYYVyqT8&locale=en-US" class="fa fa-snapchat-ghost"></a>
+</center>
+</body>
+
+</html>
